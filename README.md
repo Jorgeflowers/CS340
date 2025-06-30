@@ -1,1 +1,11 @@
 # CS340
+CS 340 Module Eight Journal – Portfolio Reflection
+
+How do you write programs that are maintainable, readable, and adaptable?
+Writing maintainable, readable, and adaptable code begins with following good software design principles, like modularity and documentation. In this course, the CRUD Python module I developed in Project One was a key example of modular design. I separated the database operations (create, read, update, delete) into a reusable class, making it easier to integrate with the dashboard in Project Two. The advantage of this approach is that it allows other Python scripts—or future projects—to reuse the same module without rewriting code. In the future, I could use this CRUD module in other applications that require interaction with a MongoDB database, like inventory systems, customer records, or data dashboards.
+
+How do you approach a problem as a computer scientist?
+I approach problems by breaking them down into smaller, manageable tasks and iterating through solutions. For the dashboard and database requirements from Grazioso Salvare, I started by analyzing the client’s needs: filtering specific dog profiles, visualizing data, and displaying locations on a map. Then I designed the layout using Dash and connected it to MongoDB through callback functions. Compared to past assignments, this project was more real-world and open-ended, requiring a client-centered mindset. In future projects, I’ll continue to use planning tools like dictionaries, modular code, and frameworks like Dash to ensure scalability and user-focused functionality.
+
+What do computer scientists do, and why does it matter?
+Computer scientists solve real-world problems using data, logic, and programming. Our work enables organizations to analyze, visualize, and act on their data efficiently. In this project, my dashboard helps Grazioso Salvare identify and evaluate potential rescue dogs more easily, saving time and improving their mission outcomes. This type of system could be expanded to include more animal profiles or integrate live data. Ultimately, computer scientists create tools that empower others to make better decisions, streamline workflows, and achieve meaningful goals.
